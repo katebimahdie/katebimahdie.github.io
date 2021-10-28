@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+.menu{
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+}
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.menu li a:hover{
+    background-color: black;
+    color: #fff;
+}
+.section{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 50px;
+}
+.section h1{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+.section p{
+    padding: 10px;
+
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.bottom{
+    background-color: black;
+    border-radius: 40px;
+    display: inline-block;
+    bottom: 0;
+    position: fixed;
+    right: 0;
+
+}
+.bottom a{
+    text-decoration: none;
+    color:#fff;
+
+
+}
